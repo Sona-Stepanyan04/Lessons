@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    font-weight: 300;
+}
+
+h1 {
+    text-transform: capitalize;
+    font-size: 28px;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 128px;
+    width: 25vw;
+}
+
+header img {
+    height: 150px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 128px;
+    color: white;
+    background-color: #EF3C4F;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 73vh;
+    width: 100%;
+}
+
+h3{
+    width: 45vw;
+    padding: 20px 0;
+}
+
+button{
+    display: inline-block;
+    background: #EF3C4F;
+    color: white;
+    padding: 10px 200px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #24344B;
+}
+
+.hero img {
+    width: 45vw;
+    height: 45vh;
+}
+
+.penultimate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 49vh;
+    width: 50vw;
+    color: white;
+    background-color: #24344B;
+}
+
+.block-one img {
+    width: 15vw;
+    padding-right: 20px;
+}
+
+.block-one h4 {
+    width: 25vw;
+}
+
+.main2 {
+    color: rgb(0, 0, 0);
+    display: grid;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    height: 24.5vh;
+    background: url(./img/4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(0, 0, 0);
+    height: 24.5vh;
+}
+.second img {
+    width: 80px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: #FED269;
+}

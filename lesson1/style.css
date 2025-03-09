@@ -1,0 +1,81 @@
+*{
+     margin: 0;
+    font-weight: 300; 
+}
+.header{
+    display: flex;  
+    width: 100vw;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 128px;
+    width: 25vw;
+    color: white;
+    background-color: #0F1629;
+}
+menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 128px;
+    color: white;
+    background-color: #EF3C4F;
+}
+.hero{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    height: 73vh;
+    width: 100vw;
+    color: white;
+    background-color: #4C86C6;
+}
+.penultimate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 49vh;
+    width: 50vw;
+    color: white;
+    background-color: #24344B;
+}
+.main2 {
+    color: rgb(0, 0, 0);
+    display: grid;
+    align-items: center;
+    justify-content: flex-end;
+}
+.main2-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    height: 24.5vh;
+    color: rgb(0, 0, 0);
+    background-color: #BEE4E9;
+}
+.main2-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    background-color: #4EBC97;
+    height: 24.5vh;
+}
+.footer {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    width: 100vw;
+    color: rgb(0, 0, 0);
+    background-color: #FED269;
+}
