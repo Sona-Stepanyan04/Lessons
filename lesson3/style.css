@@ -1,0 +1,153 @@
+body {
+    background: linear-gradient(180deg, rgb(172, 200, 235), rgb(255, 255, 255));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.snowmen {
+    position: relative;
+}
+
+.body {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: radial-gradient(rgb(255, 255, 255) 40%, rgb(160, 181, 207));
+    position: relative;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+.middle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: radial-gradient(rgb(255, 255, 255) 40%, rgb(160, 181, 207));
+    position: relative;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.head {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: radial-gradient(rgb(255, 255, 255) 40%, rgb(160, 181, 207));
+    position: relative;
+    bottom: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.eye {
+    width: 8px;
+    height: 8px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+}
+
+.eye.left {
+    left: 18px;
+}
+
+.eye.right {
+    right: 18px;
+}
+
+.nose {
+    width: 0;
+    height: 0;
+    border-right: 20px solid transparent;
+    border-bottom: 15px solid orange;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-10%);
+}
+
+.mouth {
+    width: 20px;
+    height: 10px;
+    border-bottom: 3px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button.one {
+    top: 35px;
+}
+
+.button.two {
+    top: 60px;
+}
+
+.button.three {
+    top: 85px;
+}
+
+.arm {
+    width: 50px;
+    height: 5px;
+    background: saddlebrown;
+    position: absolute;
+    top: 50px;
+}
+
+.arm.left {
+    left: -50px;
+    transform: rotate(-30deg);
+}
+
+.arm.right {
+    right: -50px;
+    transform: rotate(30deg);
+}
+
+.hat {
+    width: 50px;
+    height: 10px;
+    background: black;
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hat-top {
+    width: 30px;
+    height: 20px;
+    background: black;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
