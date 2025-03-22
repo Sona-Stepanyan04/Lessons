@@ -6,89 +6,87 @@ body {
     justify-content: center;
 }
 
-.snowmen {
-    position: relative;
-}
-
 .body {
-    width: 120px;
-    height: 120px;
+    width: 240px;
+    height: 240px;
     border-radius: 50%;
     background: radial-gradient(rgb(255, 255, 255) 40%, rgb(160, 181, 207));
     position: relative;
-    top: 100px;
+    top: 180px;
     left: 50%;
     transform: translateX(-50%);
 }
 
 h1{
     text-transform: uppercase;
+    position: relative;
+    bottom: 50px;
 }
 
 .middle {
-    width: 90px;
-    height: 90px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     background: radial-gradient(rgb(255, 255, 255) 40%, rgb(160, 181, 207));
     position: relative;
-    bottom: 80px;
+    bottom: 180px;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .head {
-    width: 60px;
-    height: 60px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     background: radial-gradient(rgb(255, 255, 255) 40%, rgb(160, 181, 207));
     position: relative;
-    bottom: 200px;
+    bottom: 450px;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .eye {
-    width: 8px;
-    height: 8px;
+    width: 15px;
+    height: 15px;
     background: black;
     border-radius: 50%;
     position: absolute;
-    top: 15px;
+    top: 35px;
 }
 
 .eye.left {
-    left: 18px;
+    left: 35px;
 }
 
 .eye.right {
-    right: 18px;
+    right: 35px;
 }
 
 .nose {
     width: 0;
     height: 0;
-    border-right: 20px solid transparent;
-    border-bottom: 15px solid orange;
+    border-right: 40px solid transparent;
+    border-bottom: 25px solid orange;
     position: absolute;
-    top: 25px;
+    top: 55px;
     left: 50%;
     transform: translateX(-10%);
 }
 
 .mouth {
-    width: 20px;
-    height: 10px;
+    width: 40px;
+    height: 20px;
     border-bottom: 3px solid black;
     border-radius: 50%;
     position: absolute;
-    top: 35px;
+    top: 75px;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .button {
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     background: black;
     border-radius: 50%;
     position: absolute;
@@ -97,32 +95,38 @@ h1{
 }
 
 .button.one {
-    top: 35px;
+    top: 80px;
 }
 
 .button.two {
-    top: 60px;
+    top: 120px;
 }
 
 .button.three {
-    top: 85px;
+    top: 160px;
 }
 
-.arm {
-    width: 50px;
-    height: 5px;
+.arm.left::after {
+    width: 150px;
+    height: 10px;
+    display: block;
+    content: "";
     background: saddlebrown;
     position: absolute;
-    top: 50px;
-}
-
-.arm.left {
-    left: -50px;
+    top: 100px;
+    left: -140px;
     transform: rotate(-30deg);
 }
 
-.arm.right {
-    right: -50px;
+.arm.right::before {
+    display: block;
+    content: "";
+    width: 150px;
+    height: 10px;
+    background: saddlebrown;
+    position: absolute;
+    top:100px;
+    right: -140px;
     transform: rotate(30deg);
 }
 
@@ -147,7 +151,12 @@ h1{
 }
 
 form {
-    display: flex;
-    align-items: center;
+    transform: translateX(50%);
     justify-content: center;
+    margin: 50px;
+}
+
+input{
+   display: flex;
+   justify-content: space-between;
 }
